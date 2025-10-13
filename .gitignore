@@ -1,0 +1,68 @@
+# ============================
+# IntelliJ IDEA / JetBrains
+# ============================
+
+# Diretórios de configuração do IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Diretórios de build e cache
+out/
+build/
+target/
+
+# Logs e temporários
+*.log
+*.tmp
+*.temp
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de dependência e pacotes
+*.jar
+*.war
+*.ear
+*.class
+
+# Arquivos gerados por ferramentas de build
+# (caso esteja usando Maven, Gradle, etc)
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+# Gradle
+.gradle/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Configurações de execução locais
+*.swp
+*.swo
+*.bak
+*.orig
+
+# Configurações de ambiente ou credenciais
+*.env
+.env.*
+*.credentials
+*.secrets
+
+# Arquivos de testes e relatórios temporários
+test-output/
+surefire-reports/
+reports/
+coverage/
+jacoco.exec
+
+# Configurações específicas de IDEs
+# (opcional: útil se mais de um IDE for usado no projeto)
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Arquivos do OS
+ehthumbs.db
+Icon?
+desktop.ini
